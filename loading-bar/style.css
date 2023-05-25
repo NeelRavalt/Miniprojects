@@ -4,8 +4,8 @@ body {
   justify-content: center;
   height: 100vh;
   align-items: center;
-  background-color: black;
-  color: lightgray;
+  background-color: rgb(18, 131, 237);
+  color: rgb(245, 232, 232);
   font-family: cursive;
 }
 
@@ -13,12 +13,12 @@ body {
   text-align: center;
   width: 400px;
   position: relative;
-}
+} 
 
-.counter {
+ .counter {
   font-size: 40px;
-}
-/* 
+} 
+
 .loading-bar-back {
   position: absolute;
   height: 8px;
@@ -26,13 +26,13 @@ body {
   width: 100%;
   border-radius: 5px;
   border: none;
-} */
-/* 
-.loading-bar-front {
+}  
+
+ .loading-bar-front {
   position: absolute;
   height: 8px;
-  background-color: orangered;
+  background-color: rgb(10, 232, 88);
   width: 0%;
   border-radius: 5px;
   border: none;
-} */
+}  
