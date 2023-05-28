@@ -5,7 +5,7 @@ body {
 }
 
 .heading {
-  color: darkblue;
+  color: rgb(163, 131, 55);
   text-align: center;
   padding-top: 10px;
   font-size: 35px;
@@ -13,14 +13,15 @@ body {
 
 .info-text {
   text-align: center;
-  color: darkblue;
+  color: rgb(2, 2, 64);
   font-size: 18px;
 }
 
 .app {
+  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
-  gap: 40px;
+  gap: 14px;
   justify-content: center;
   padding: 50px;
 }
@@ -62,7 +63,7 @@ body {
 }
 
 .btn:hover{
-    background: rgba(255, 255, 255, 0.55);
+    background: rgba(193, 6, 6, 0.55);
     color: rgba(0, 0, 0, 0.6);
     transition: all 300ms ease;
 }
