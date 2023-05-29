@@ -54,7 +54,7 @@ function addNote() {
 }
 
 function saveNote(notes) {
-  localStorage.setItem("note-app", JSON.stringify(notes));
+  localStorage.setItem("appnote-", JSON.stringify(notes));
 }
 
 function getNotes() {
